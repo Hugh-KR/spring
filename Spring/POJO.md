@@ -10,7 +10,7 @@
 스프링의 주요 기능은 대부분 IoC 컨테이너 안에서 POJO를 구상하고 관리하는 일과 연관되어있다.
 
 예를 들어보자.  
-<img src="../Img/POJO_img_1.png" width="30%">  
+<img src="../Img/POJO_img_1.png" width="50%">  
 위 객체는 기본적인 Getter, Setter 기능만 가지고 있다.  
 **특정 기술에 종속되지 않은 재사용 가능한** 순수 자바 객체이기 때문에 POJO라고 할 수 있다.
 
@@ -43,7 +43,7 @@ IoC 컨테이너는 이렇게 어노테이션을 붙인 자바 클래스를 스�
 
 그럼 이제 본격적으로 어노테이션을 활용하여 자바 POJO를 생성하는 클래스를 구현해보자.
 
-<img src="../Img/POJO_img_2.png" width="40%">
+<img src="../Img/POJO_img_2.png" width="50%">
 
 @Configuration, @Been 어노테이션을 활용한 클래스이다.
 
