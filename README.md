@@ -21,4 +21,4 @@ ex) [Spring] POJO Create/Update
 
 ### Spring
 
-- [POJO](https://github.com/tech-study-for-spring/spring/blob/main/Spring/POJO.md)
+- [자바로 POJO 구성하기](https://github.com/tech-study-for-spring/spring/blob/main/Spring/POJO.md)
