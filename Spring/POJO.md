@@ -72,7 +72,7 @@ name 속성값을 지정해주지 않으면 원본 메소드 이름과 같은 �
 
 둘은 각각 빈 팩토리, 어플리케이션 컨텍스트에 접근하기위한 인터페이스다.  
 그리고 Application Context는 Bean Factory의 하위 인터페이스라서 호환성이 보장된다.  
-`(Application Context는 기본 기능에 충실하면서도 Bean Factory보다 발전된 기능을 가지고 있으니. 리소스 제약을 받는 상황이 아니라면 Application Context를 사용하는게 좋다.)`
+`Application Context는 기본 기능에 충실하면서도 Bean Factory보다 발전된 기능을 가지고 있으니, 리소스 제약을 받는 상황이 아니라면 Application Context를 사용하는게 좋다.`
 
 Application Context는 인터페이스로, 사용하려면 구현체 클래스가 필요하다.  
 스프링에서 지원하는 Application Context의 몇가지 구현체 중 **AnnotationConfigApplicationContext**가 가장 최근 기술이고, 유연하기 때문에 사용이 권장된다.
