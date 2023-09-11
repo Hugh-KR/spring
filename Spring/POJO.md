@@ -102,7 +102,7 @@ Application Context는 인터페이스로, 사용하려면 구현체 클래스�
 
 위 예시에서는 REGEX, ANNOTATION 표현식을 이용해 필터를 적용시켰다.  
 includeFilters 에서 **_"hello.itemservice.service.\*Service"_** 형태의 이름을 가진 클래스를 포함했기 때문에, 어노테이션이 달려있지 않아도 스프링이 자동으로 감지한다.  
-excludeFilters 에서는 **_Controller 클래스_**를 지정해 제외시켰다.
+excludeFilters 에서는 **_Controller 클래스_** 를 지정해 제외시켰다.
 
 <br>
 
